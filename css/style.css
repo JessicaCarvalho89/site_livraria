@@ -1,0 +1,152 @@
+/* reset dos padrões do navegador */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/* Regras para as tags  */
+body {
+    background-color: rgb(235, 167, 119);
+    color: #e6dede9d;
+    font-family: "Aboreto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Cabeçalho do site */
+header {
+    background-color: #b93f3fb9;
+    padding: 6px;
+    display: flex;
+    justify-content: stretch
+}
+
+/* ** --------  MENU VERTICAL -------- ** */
+/* Definir largura da caixa */
+header nav {
+    margin-left: 40px;
+}
+
+/* ocultar os marcadores da lista dentro de nav */
+header nav ul {
+    list-style-type: none;
+}
+
+/* Converter li e a para comportamento de bloco */
+header nav li,
+nav a {
+    display: inline-block;
+}
+
+/* Definir aparência dos links */
+header nav li a,
+nav li a:visited {
+    text-decoration: none;
+    background-color: #b93f3fb9;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Definir aparência dos links no hover */
+header nav li a:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+main {
+    min-height: 600px;
+    padding: 20px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #b93f3fb9;
+}
+
+footer nav {
+    width: 200px;
+}
+
+/* ocultar os marcadores da lista dentro de nav */
+footer nav ul {
+    list-style-type: none;
+}
+
+/* Converter li e a para comportamento de bloco */
+footer nav li,
+nav a {
+    display: block;
+}
+
+/* Definir aparência dos links */
+footer nav li a,
+nav li a:visited {
+    text-decoration: none;
+    background-color: #833636;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Definir aparência dos links no hover */
+footer nav li a:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+/* regras para as classes */
+.logo {
+    display: block;
+    width: 120px;
+    height: 90px;
+    margin-right: 20px;
+}
+
+
+/* regras para os IDs */
+#btn-whats {
+    width: 80px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+
+}
+#btn-whats{
+    width: 80px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    background-color: #d8ccba;
+}
+
+#whats-message{
+    width: 260px;
+    padding: 10px;
+    background-color: #ddd;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    display: none;
+}
